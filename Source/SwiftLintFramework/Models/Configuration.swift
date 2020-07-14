@@ -18,7 +18,7 @@ public struct Configuration: Hashable {
     // MARK: Properties
 
     /// The standard file name to look for user-defined configurations.
-    public static let fileName = ".swiftlint.yml"
+    public static let fileName = ".swiftlintdropbox.yml"
 
     /// The style to use when indenting Swift source code.
     public let indentation: IndentationStyle

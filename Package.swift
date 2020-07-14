@@ -8,10 +8,10 @@ private let addCryptoSwift = true
 #endif
 
 let package = Package(
-    name: "SwiftLint",
+    name: "SwiftLintDropbox",
     products: [
-        .executable(name: "swiftlint", targets: ["swiftlint"]),
-        .library(name: "SwiftLintFramework", targets: ["SwiftLintFramework"])
+        .executable(name: "swiftlintdropbox", targets: ["swiftlint"]),
+        .library(name: "SwiftLintFrameworkDropbox", targets: ["SwiftLintFramework"])
     ],
     dependencies: [
         .package(url: "https://github.com/Carthage/Commandant.git", .upToNextMinor(from: "0.17.0")),

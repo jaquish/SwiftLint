@@ -1,10 +1,15 @@
-// Generated using Sourcery 0.17.0 — https://github.com/krzysztofzablocki/Sourcery
+// Generated using Sourcery 0.18.0 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 
 /// The rule list containing all available rules built into SwiftLint.
 public let masterRuleList = RuleList(rules: [
     AnyObjectProtocolRule.self,
     ArrayInitRule.self,
+    AthenaPreferThemedCellsRule.self,
+    AthenaPresenterShouldNotReferenceCoordinatorRule.self,
+    AthenaPresenterShouldSetNavigationItemRule.self,
+    AthenaPresenterShouldSetTitleRule.self,
+    AthenaViewControllerShouldNotReferenceCoordinatorRule.self,
     AttributesRule.self,
     BlockBasedKVORule.self,
     ClassDelegateProtocolRule.self,
@@ -147,6 +152,9 @@ public let masterRuleList = RuleList(rules: [
     RequiredDeinitRule.self,
     RequiredEnumCaseRule.self,
     ReturnArrowWhitespaceRule.self,
+    RxImmutableNonprivateObservableRule.self,
+    RxPreferRestrictiveTypeRule.self,
+    RxPrivateSubjectRule.self,
     ShorthandOperatorRule.self,
     SingleTestClassRule.self,
     SortedFirstLastRule.self,

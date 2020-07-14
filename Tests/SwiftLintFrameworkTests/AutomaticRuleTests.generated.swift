@@ -1,4 +1,4 @@
-// Generated using Sourcery 0.17.0 — https://github.com/krzysztofzablocki/Sourcery
+// Generated using Sourcery 0.18.0 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 
 import SwiftLintFramework
@@ -15,6 +15,36 @@ class AnyObjectProtocolRuleTests: XCTestCase {
 class ArrayInitRuleTests: XCTestCase {
     func testWithDefaultConfiguration() {
         verifyRule(ArrayInitRule.description)
+    }
+}
+
+class AthenaPreferThemedCellsRuleTests: XCTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(AthenaPreferThemedCellsRule.description)
+    }
+}
+
+class AthenaPresenterShouldNotReferenceCoordinatorRuleTests: XCTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(AthenaPresenterShouldNotReferenceCoordinatorRule.description)
+    }
+}
+
+class AthenaPresenterShouldSetNavigationItemRuleTests: XCTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(AthenaPresenterShouldSetNavigationItemRule.description)
+    }
+}
+
+class AthenaPresenterShouldSetTitleRuleTests: XCTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(AthenaPresenterShouldSetTitleRule.description)
+    }
+}
+
+class AthenaViewControllerShouldNotReferenceCoordinatorRuleTests: XCTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(AthenaViewControllerShouldNotReferenceCoordinatorRule.description)
     }
 }
 
@@ -639,6 +669,24 @@ class RequiredDeinitRuleTests: XCTestCase {
 class ReturnArrowWhitespaceRuleTests: XCTestCase {
     func testWithDefaultConfiguration() {
         verifyRule(ReturnArrowWhitespaceRule.description)
+    }
+}
+
+class RxImmutableNonprivateObservableRuleTests: XCTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(RxImmutableNonprivateObservableRule.description)
+    }
+}
+
+class RxPreferRestrictiveTypeRuleTests: XCTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(RxPreferRestrictiveTypeRule.description)
+    }
+}
+
+class RxPrivateSubjectRuleTests: XCTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(RxPrivateSubjectRule.description)
     }
 }
 

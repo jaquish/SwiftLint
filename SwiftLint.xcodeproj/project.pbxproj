@@ -389,6 +389,15 @@
 		D4FD58B21E12A0200019503C /* LinterCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FD58B11E12A0200019503C /* LinterCache.swift */; };
 		D93DA3D11E699E6300809827 /* NestingConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93DA3CF1E699E4E00809827 /* NestingConfiguration.swift */; };
 		DAD3BE4A1D6ECD9500660239 /* PrivateOutletRuleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD3BE491D6ECD9500660239 /* PrivateOutletRuleConfiguration.swift */; };
+		DD00094624C1096D000D3F2C /* RxPrivateSubjectRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD00094124C1096C000D3F2C /* RxPrivateSubjectRule.swift */; };
+		DD00094824C1096D000D3F2C /* AthenaPresenterShouldNotReferenceCoordinatorRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD00094324C1096D000D3F2C /* AthenaPresenterShouldNotReferenceCoordinatorRule.swift */; };
+		DD00094924C1096D000D3F2C /* AthenaViewControllerShouldNotReferenceCoordinatorRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD00094424C1096D000D3F2C /* AthenaViewControllerShouldNotReferenceCoordinatorRule.swift */; };
+		DD20B91D24C2221100048D8C /* RxPrivateSubjectRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20B91C24C2221100048D8C /* RxPrivateSubjectRule.swift */; };
+		DD20B91E24C2221500048D8C /* RxPreferRestrictiveTypeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20B91A24C221FE00048D8C /* RxPreferRestrictiveTypeRule.swift */; };
+		DD20B91F24C2221B00048D8C /* RxImmutableInterfaceRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20B91624C221EC00048D8C /* RxImmutableInterfaceRule.swift */; };
+		DD20B92124C2229100048D8C /* AthenaPreferThemedCellsRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20B92024C2229100048D8C /* AthenaPreferThemedCellsRule.swift */; };
+		DD20B92324C2229F00048D8C /* AthenaPresenterShouldSetNavigationItemRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20B92224C2229F00048D8C /* AthenaPresenterShouldSetNavigationItemRule.swift */; };
+		DD50011D24BE21410035CE95 /* RxPrivateSubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7F89D424BE20A900221326 /* RxPrivateSubjectTests.swift */; };
 		E315B83C1DFA4BC500621B44 /* DynamicInlineRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E315B83B1DFA4BC500621B44 /* DynamicInlineRule.swift */; };
 		E48F715E23789824003E1775 /* SwiftLintSyntaxMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F715C23789823003E1775 /* SwiftLintSyntaxMap.swift */; };
 		E48F715F23789824003E1775 /* SwiftLintSyntaxToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F715D23789824003E1775 /* SwiftLintSyntaxToken.swift */; };
@@ -923,6 +932,15 @@
 		D4FD58B11E12A0200019503C /* LinterCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinterCache.swift; sourceTree = "<group>"; };
 		D93DA3CF1E699E4E00809827 /* NestingConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestingConfiguration.swift; sourceTree = "<group>"; };
 		DAD3BE491D6ECD9500660239 /* PrivateOutletRuleConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateOutletRuleConfiguration.swift; sourceTree = "<group>"; };
+		DD00094124C1096C000D3F2C /* RxPrivateSubjectRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxPrivateSubjectRule.swift; sourceTree = "<group>"; };
+		DD00094324C1096D000D3F2C /* AthenaPresenterShouldNotReferenceCoordinatorRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AthenaPresenterShouldNotReferenceCoordinatorRule.swift; sourceTree = "<group>"; };
+		DD00094424C1096D000D3F2C /* AthenaViewControllerShouldNotReferenceCoordinatorRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AthenaViewControllerShouldNotReferenceCoordinatorRule.swift; sourceTree = "<group>"; };
+		DD20B91624C221EC00048D8C /* RxImmutableInterfaceRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxImmutableInterfaceRule.swift; sourceTree = "<group>"; };
+		DD20B91A24C221FE00048D8C /* RxPreferRestrictiveTypeRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxPreferRestrictiveTypeRule.swift; sourceTree = "<group>"; };
+		DD20B91C24C2221100048D8C /* RxPrivateSubjectRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxPrivateSubjectRule.swift; sourceTree = "<group>"; };
+		DD20B92024C2229100048D8C /* AthenaPreferThemedCellsRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AthenaPreferThemedCellsRule.swift; sourceTree = "<group>"; };
+		DD20B92224C2229F00048D8C /* AthenaPresenterShouldSetNavigationItemRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AthenaPresenterShouldSetNavigationItemRule.swift; sourceTree = "<group>"; };
+		DD7F89D424BE20A900221326 /* RxPrivateSubjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxPrivateSubjectTests.swift; sourceTree = "<group>"; };
 		E315B83B1DFA4BC500621B44 /* DynamicInlineRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicInlineRule.swift; sourceTree = "<group>"; };
 		E48F715C23789823003E1775 /* SwiftLintSyntaxMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLintSyntaxMap.swift; sourceTree = "<group>"; };
 		E48F715D23789824003E1775 /* SwiftLintSyntaxToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLintSyntaxToken.swift; sourceTree = "<group>"; };
@@ -1605,6 +1623,7 @@
 				D45255C71F0932F8003C9B56 /* RuleDescription+Examples.swift */,
 				E8BB8F9B1B17DE3B00199606 /* RulesTests.swift */,
 				3B12C9C61C3361CB000B423F /* RuleTests.swift */,
+				DD7F89D424BE20A900221326 /* RxPrivateSubjectTests.swift */,
 				6C7045431C6ADA450003F15A /* SourceKitCrashTests.swift */,
 				D4F5851620E99B260085C6D8 /* StatementPositionRuleTests.swift */,
 				D0D1217C19E87B05005E4BAA /* Supporting Files */,
@@ -1635,6 +1654,21 @@
 				D0D1217D19E87B05005E4BAA /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDD9F5E624BFC76A00B38217 /* Dropbox */ = {
+			isa = PBXGroup;
+			children = (
+				DD20B92024C2229100048D8C /* AthenaPreferThemedCellsRule.swift */,
+				DD00094324C1096D000D3F2C /* AthenaPresenterShouldNotReferenceCoordinatorRule.swift */,
+				DD20B92224C2229F00048D8C /* AthenaPresenterShouldSetNavigationItemRule.swift */,
+				DD00094424C1096D000D3F2C /* AthenaViewControllerShouldNotReferenceCoordinatorRule.swift */,
+				DD00094124C1096C000D3F2C /* RxPrivateSubjectRule.swift */,
+				DD20B91624C221EC00048D8C /* RxImmutableInterfaceRule.swift */,
+				DD20B91A24C221FE00048D8C /* RxPreferRestrictiveTypeRule.swift */,
+				DD20B91C24C2221100048D8C /* RxPrivateSubjectRule.swift */,
+			);
+			path = Dropbox;
 			sourceTree = "<group>";
 		};
 		E802ECFE1C56A54600A35AE1 /* Helpers */ = {
@@ -1683,6 +1717,7 @@
 		E88DEA7A1B098D7300A66CB0 /* Rules */ = {
 			isa = PBXGroup;
 			children = (
+				DDD9F5E624BFC76A00B38217 /* Dropbox */,
 				8F2892B8211770FB00691D58 /* Idiomatic */,
 				8F2892B621176FBE00691D58 /* Lint */,
 				8F2892B421176E1200691D58 /* Metrics */,
@@ -2082,6 +2117,7 @@
 				623E36F01F3DB1B1002E5B71 /* QuickDiscouragedCallRule.swift in Sources */,
 				288289602229776C0037CF5F /* NSObjectPreferIsEqualRuleExamples.swift in Sources */,
 				BFF028AE1CBCF8A500B38A9D /* TrailingWhitespaceConfiguration.swift in Sources */,
+				DD00094624C1096D000D3F2C /* RxPrivateSubjectRule.swift in Sources */,
 				3B034B6E1E0BE549005D49A9 /* LineLengthConfiguration.swift in Sources */,
 				B25DCD0C1F7E9FA20028A199 /* MultilineArgumentsRule.swift in Sources */,
 				6258783B1FFC458100AC34F2 /* DiscouragedObjectLiteralRule.swift in Sources */,
@@ -2172,6 +2208,7 @@
 				82FE254120F604CB00295958 /* VerticalWhitespaceClosingBracesRule.swift in Sources */,
 				429644B61FB0A9B400D75128 /* SortedFirstLastRule.swift in Sources */,
 				C3EF547821B5A4000009262F /* LegacyHashingRule.swift in Sources */,
+				DD00094824C1096D000D3F2C /* AthenaPresenterShouldNotReferenceCoordinatorRule.swift in Sources */,
 				31F1B6CC1F60BF4500A57456 /* SwitchCaseAlignmentRule.swift in Sources */,
 				E88DEA731B0984C400A66CB0 /* String+SwiftLint.swift in Sources */,
 				E88198591BEA95F100333A11 /* LeadingWhitespaceRule.swift in Sources */,
@@ -2215,6 +2252,7 @@
 				82F614F22106014500D23904 /* MultilineParametersBracketsRule.swift in Sources */,
 				4100D7A723BEACBF009464E0 /* FileNameNoSpaceConfiguration.swift in Sources */,
 				6BE79EB12204EC0700B5A2FE /* RequiredDeinitRule.swift in Sources */,
+				DD20B91E24C2221500048D8C /* RxPreferRestrictiveTypeRule.swift in Sources */,
 				3B1DF0121C5148140011BCED /* CustomRules.swift in Sources */,
 				2E5761AA1C573B83003271AF /* FunctionParameterCountRule.swift in Sources */,
 				E86396C91BADB2B9002C9E88 /* JSONReporter.swift in Sources */,
@@ -2249,6 +2287,7 @@
 				62A7127520F1178F00E604A6 /* AnyObjectProtocolRule.swift in Sources */,
 				D4D0B8F42211428D0053A116 /* ColonRuleExamples.swift in Sources */,
 				E88DEA6F1B09843F00A66CB0 /* Location.swift in Sources */,
+				DD20B91F24C2221B00048D8C /* RxImmutableInterfaceRule.swift in Sources */,
 				D43B046B1E075905004016AF /* ClosureEndIndentationRule.swift in Sources */,
 				D47EF4821F69E34D0012C4CA /* ColonRule+Dictionary.swift in Sources */,
 				D93DA3D11E699E6300809827 /* NestingConfiguration.swift in Sources */,
@@ -2261,6 +2300,7 @@
 				93E0C3CE1D67BD7F007FA25D /* ConditionalReturnsOnNewlineRule.swift in Sources */,
 				D43DB1081DC573DA00281215 /* ImplicitGetterRule.swift in Sources */,
 				D450D1D121EC4A6900E60010 /* StrongIBOutletRule.swift in Sources */,
+				DD00094924C1096D000D3F2C /* AthenaViewControllerShouldNotReferenceCoordinatorRule.swift in Sources */,
 				824AB64D2105C39F004B5A8F /* ConditionalReturnsOnNewlineConfiguration.swift in Sources */,
 				62A6E7931F3317E3003A0479 /* JoinedDefaultParameterRule.swift in Sources */,
 				82DB55FE21008F3E001C62FF /* FileTypesOrderConfiguration.swift in Sources */,
@@ -2321,6 +2361,7 @@
 				62622F6B1F2F2E3500D5D099 /* DiscouragedDirectInitRule.swift in Sources */,
 				B89F3BCD1FD5EDFB00931E59 /* RequiredEnumCaseRule.swift in Sources */,
 				E83530C61ED6328A00FBAF79 /* FileNameRule.swift in Sources */,
+				DD20B92324C2229F00048D8C /* AthenaPresenterShouldSetNavigationItemRule.swift in Sources */,
 				3BB47D831C514E8100AE6A10 /* RegexConfiguration.swift in Sources */,
 				D401D9261ED85EF0005DA5D4 /* RuleKind.swift in Sources */,
 				622AD800216ACE6300A002C6 /* XCTSpecificMatcherRuleExamples.swift in Sources */,
@@ -2376,7 +2417,9 @@
 				D4DABFD91E2C59BC009617B6 /* NotificationCenterDetachmentRuleExamples.swift in Sources */,
 				E88198521BEA941300333A11 /* TodoRule.swift in Sources */,
 				3B828E531C546468000D180E /* RuleConfiguration.swift in Sources */,
+				DD20B92124C2229100048D8C /* AthenaPreferThemedCellsRule.swift in Sources */,
 				A73469421FB121BA009B57C7 /* CallPairRule.swift in Sources */,
+				DD20B91D24C2221100048D8C /* RxPrivateSubjectRule.swift in Sources */,
 				D47079AF1DFE520000027086 /* VoidReturnRule.swift in Sources */,
 				B3935EE74B1E8E14FBD65E7F /* String+XML.swift in Sources */,
 				BC87573B2195CF2A00CA7A74 /* ModifierOrderRuleExamples.swift in Sources */,
@@ -2456,6 +2499,7 @@
 				C2B3C1612106F78C00088928 /* ConfigurationAliasesTests.swift in Sources */,
 				D4470D5B1EB76F44008A1B2E /* UnusedOptionalBindingRuleTests.swift in Sources */,
 				787CDE3B208F9C34005F3D2F /* SwitchCaseAlignmentRuleTests.swift in Sources */,
+				DD50011D24BE21410035CE95 /* RxPrivateSubjectTests.swift in Sources */,
 				B1FD3ABD238BC5FB00CE121E /* ImplicitReturnRuleTests.swift in Sources */,
 				F480DC811F2609AB00099465 /* XCTestCase+BundlePath.swift in Sources */,
 				B89F3BCE1FD5EE0200931E59 /* RequiredEnumCaseRuleTestCase.swift in Sources */,

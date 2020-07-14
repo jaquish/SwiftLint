@@ -1,0 +1,10 @@
+whitelist_rules:
+  - athena_presenter_should_set_navigation_item
+  - athena_use_themed_cells
+  - presenter_should_not_reference_coordinator
+  - rx_immutable_interface
+  - rx_prefer_restrictive_type
+  - rx_private_subject
+  - view_controller_should_not_reference_coordinator
+excluded:
+  - Pods

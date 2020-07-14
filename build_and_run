@@ -1,0 +1,26 @@
+#!/bin/zsh
+
+## Perform actions from the correct location
+cd ~/src/SwiftLintDropbox
+
+## Uncomment when adding a rule for the first time.
+make sourcery
+
+## Uncomment to force clean build (time-consuming)
+# rm -rf .build
+
+## Cleanup previous artifacts
+rm /usr/local/bin/swiftlintdropbox
+rm .build/debug/swiftlintdropbox
+
+## Build
+swift build
+
+## Move to demo project
+cp .build/debug/swiftlintdropbox /usr/local/bin/
+cd /Users/zjaquish/src/LintDemoProject
+
+## Run without caching. Uncomment to run on specific file.
+# ./swiftlintdropbox --no-cache ./Sources/LintTestProject/FooPresenter.swift
+# ./swiftlintdropbox --no-cache ./Sources/LintTestProject/FooCoordinator.swift
+swiftlintdropbox --no-cache 

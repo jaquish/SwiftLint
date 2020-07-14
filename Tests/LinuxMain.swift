@@ -1,4 +1,4 @@
-// Generated using Sourcery 0.17.0 — https://github.com/krzysztofzablocki/Sourcery
+// Generated using Sourcery 0.18.0 — https://github.com/krzysztofzablocki/Sourcery
 // DO NOT EDIT
 
 @testable import SwiftLintFrameworkTests
@@ -14,6 +14,36 @@ extension AnyObjectProtocolRuleTests {
 
 extension ArrayInitRuleTests {
     static var allTests: [(String, (ArrayInitRuleTests) -> () throws -> Void)] = [
+        ("testWithDefaultConfiguration", testWithDefaultConfiguration)
+    ]
+}
+
+extension AthenaPreferThemedCellsRuleTests {
+    static var allTests: [(String, (AthenaPreferThemedCellsRuleTests) -> () throws -> Void)] = [
+        ("testWithDefaultConfiguration", testWithDefaultConfiguration)
+    ]
+}
+
+extension AthenaPresenterShouldNotReferenceCoordinatorRuleTests {
+    static var allTests: [(String, (AthenaPresenterShouldNotReferenceCoordinatorRuleTests) -> () throws -> Void)] = [
+        ("testWithDefaultConfiguration", testWithDefaultConfiguration)
+    ]
+}
+
+extension AthenaPresenterShouldSetNavigationItemRuleTests {
+    static var allTests: [(String, (AthenaPresenterShouldSetNavigationItemRuleTests) -> () throws -> Void)] = [
+        ("testWithDefaultConfiguration", testWithDefaultConfiguration)
+    ]
+}
+
+extension AthenaPresenterShouldSetTitleRuleTests {
+    static var allTests: [(String, (AthenaPresenterShouldSetTitleRuleTests) -> () throws -> Void)] = [
+        ("testWithDefaultConfiguration", testWithDefaultConfiguration)
+    ]
+}
+
+extension AthenaViewControllerShouldNotReferenceCoordinatorRuleTests {
+    static var allTests: [(String, (AthenaViewControllerShouldNotReferenceCoordinatorRuleTests) -> () throws -> Void)] = [
         ("testWithDefaultConfiguration", testWithDefaultConfiguration)
     ]
 }
@@ -482,6 +512,12 @@ extension ExplicitTypeInterfaceRuleTests {
 extension ExtendedNSStringTests {
     static var allTests: [(String, (ExtendedNSStringTests) -> () throws -> Void)] = [
         ("testLineAndCharacterForByteOffset_forContentsContainingMultibyteCharacters", testLineAndCharacterForByteOffset_forContentsContainingMultibyteCharacters)
+    ]
+}
+
+extension ExtendedStringTests {
+    static var allTests: [(String, (ExtendedStringTests) -> () throws -> Void)] = [
+        ("testCountOccurrences", testCountOccurrences)
     ]
 }
 
@@ -1321,6 +1357,30 @@ extension RulesTests {
     ]
 }
 
+extension RxImmutableNonprivateObservableRuleTests {
+    static var allTests: [(String, (RxImmutableNonprivateObservableRuleTests) -> () throws -> Void)] = [
+        ("testWithDefaultConfiguration", testWithDefaultConfiguration)
+    ]
+}
+
+extension RxPreferRestrictiveTypeRuleTests {
+    static var allTests: [(String, (RxPreferRestrictiveTypeRuleTests) -> () throws -> Void)] = [
+        ("testWithDefaultConfiguration", testWithDefaultConfiguration)
+    ]
+}
+
+extension RxPrivateSubjectRuleTests {
+    static var allTests: [(String, (RxPrivateSubjectRuleTests) -> () throws -> Void)] = [
+        ("testWithDefaultConfiguration", testWithDefaultConfiguration)
+    ]
+}
+
+extension RxPrivateSubjectTests {
+    static var allTests: [(String, (RxPrivateSubjectTests) -> () throws -> Void)] = [
+        ("testWithDefaultConfiguration", testWithDefaultConfiguration)
+    ]
+}
+
 extension ShorthandOperatorRuleTests {
     static var allTests: [(String, (ShorthandOperatorRuleTests) -> () throws -> Void)] = [
         ("testWithDefaultConfiguration", testWithDefaultConfiguration)
@@ -1667,6 +1727,11 @@ extension YodaConditionRuleTests {
 XCTMain([
     testCase(AnyObjectProtocolRuleTests.allTests),
     testCase(ArrayInitRuleTests.allTests),
+    testCase(AthenaPreferThemedCellsRuleTests.allTests),
+    testCase(AthenaPresenterShouldNotReferenceCoordinatorRuleTests.allTests),
+    testCase(AthenaPresenterShouldSetNavigationItemRuleTests.allTests),
+    testCase(AthenaPresenterShouldSetTitleRuleTests.allTests),
+    testCase(AthenaViewControllerShouldNotReferenceCoordinatorRuleTests.allTests),
     testCase(AttributesRuleTests.allTests),
     testCase(BlockBasedKVORuleTests.allTests),
     testCase(ClassDelegateProtocolRuleTests.allTests),
@@ -1722,6 +1787,7 @@ XCTMain([
     testCase(ExplicitTypeInterfaceConfigurationTests.allTests),
     testCase(ExplicitTypeInterfaceRuleTests.allTests),
     testCase(ExtendedNSStringTests.allTests),
+    testCase(ExtendedStringTests.allTests),
     testCase(ExtensionAccessModifierRuleTests.allTests),
     testCase(FallthroughRuleTests.allTests),
     testCase(FatalErrorMessageRuleTests.allTests),
@@ -1829,6 +1895,10 @@ XCTMain([
     testCase(RuleConfigurationTests.allTests),
     testCase(RuleTests.allTests),
     testCase(RulesTests.allTests),
+    testCase(RxImmutableNonprivateObservableRuleTests.allTests),
+    testCase(RxPreferRestrictiveTypeRuleTests.allTests),
+    testCase(RxPrivateSubjectRuleTests.allTests),
+    testCase(RxPrivateSubjectTests.allTests),
     testCase(ShorthandOperatorRuleTests.allTests),
     testCase(SingleTestClassRuleTests.allTests),
     testCase(SortedFirstLastRuleTests.allTests),
